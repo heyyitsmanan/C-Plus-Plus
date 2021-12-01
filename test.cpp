@@ -6,6 +6,6 @@ int main()
     string name;
     cout << "Enter your name please?" << endl;
     cin >> name;
-    cout << "Hello, " << name << endl;
+    cout << "Hellow, " << name << endl;
     return 0;
 }
