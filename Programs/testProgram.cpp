@@ -3,15 +3,32 @@ using namespace std;
 
 int main()
 {
-    for (int i = 0; i < 5; i++)
+    int n;
+    cout << "Enter a number to check..." << endl;
+    cin >> n;
+
+    switch (n)
     {
-        for (int j = i; j <= 5; j++)
-        {
-            if (i + j == 10)
-            {
-                break;
-            }
-            cout << i << " " << j << endl;
-        }
+    case 1:
+        cout << "First Case" << endl;
+        break;
+
+    case 2:
+        cout << "Second Case" << endl;
+        break;
+
+    case 3:
+        cout << "Third Case" << endl;
+        break;
+
+    case 4:
+        cout << "Fourth Case" << endl;
+        break;
+
+    default:
+        cout << "It's a default case." << endl;
+        cout << "Cases are available from 1-4." << endl;
+        // continue;
+        break;
     }
 }
