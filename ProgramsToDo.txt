@@ -5,3 +5,4 @@ PROGRAMS TO DO
 3. Signed and Unsigned Conversion
 4. Program for square root
 5. Program for power (2^2 = 4)  -> Done
+6. Unique number of occurrences - Problem 1207 of Leetcode
