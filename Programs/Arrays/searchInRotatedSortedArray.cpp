@@ -13,11 +13,7 @@ int main()
 
     int pivot = getPivot(arr, 9);
 
-    cout << pivot << endl;
-
     int elementFound = searchElement(arr, 9, key, pivot);
-
-    cout << elementFound << endl;
 
     if (elementFound >= 0)
     {
@@ -64,14 +60,12 @@ int searchElement(int arr[], int size, int key, int pivot)
     {
         s = pivot;
         e = size - 1;
-        cout << s << " " << e << " Neeche vaali line" << endl;
         isElementThere = binarySearch(arr, size, s, e, key);
     }
     else
     {
         s = 0;
         e = pivot - 1;
-        cout << s << " " << e << " Upar vaali line" << endl;
         isElementThere = binarySearch(arr, size, s, e, key);
     }
     return isElementThere;
